@@ -1,0 +1,1984 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%; }
+
+
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1.7;
+    width: 100%;
+}
+.wrapper {
+    -ms-overflow-x: auto;
+    overflow-x: auto;
+    overflow: hidden;
+}
+
+.header {
+    position:fixed;
+    width: 100%;
+    height: 6.88vw;
+    background:linear-gradient(90deg,white 0%,white 26.79%,#393839 26.79%,#393839 100%);
+    z-index: 9999;
+}
+
+.header_title {
+    position: absolute;
+    width: 21.89%;
+    top: 50%;
+    left: 13.8%;
+    transform: translateY(-50%);
+}
+
+.header_title_small {
+    display: none;
+}
+
+.aq_logo {
+   position: absolute;
+   width: 10.37%;
+   height: auto;
+   left: 1.273%;
+   top:50%;
+   transform: translateY(-50%);
+}
+
+.key_visual {
+    position: relative;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.thumb-nail {
+    display: none;
+    width: 100%;
+    margin: auto;
+    margin-top: 6.68vw;
+    z-index: 1;
+}
+
+.key-visual-video {
+    width: 100%;
+    z-index: 2;
+    margin: auto;
+    margin-top:6.68vw;
+    display: block;
+    z-index: 3;
+}
+
+.allow-voice {
+    position: absolute;
+    width: 5%;
+    top: 90%;
+    left: 94%;
+    opacity: 0.4;
+    z-index: 4;
+}
+
+.disallow-voice {
+    display: none;
+    position: absolute;
+    width: 5%;
+    top: 90%;
+    left: 94%;
+    opacity: 0.4;
+    z-index: 4;
+}
+
+
+
+
+
+
+
+
+
+
+/*  Concept */
+
+
+
+.concept {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    margin-top: -5%;
+    max-width: 1440px;
+}
+
+
+.concept-main {
+    width: 100%;
+}
+
+.concept-small {
+    display: none;
+}
+
+.concept_img_1 {
+    display: none;
+    position: absolute;
+    width:187px;
+    height: 545px;
+    left: 64.08vw;
+    top:3.24vw;
+    max-width: 260px;
+}
+.concept_img_2 {
+    display: none;
+    position: absolute;
+    width:187px;
+    height: 545px;
+    left: 77.334vw;
+    top:3.24vw;
+    max-width: 260px;
+}
+.sell1 {
+    position: absolute;
+    top: 80%;
+    width:18.2%;
+    left: 64.08%;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+.sell2 {
+    position: absolute;
+    top: 80%;
+    left: 77.62%;
+    font-size: 10px;
+    width:18.2%;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* slide_show_1 */
+
+
+
+.slide {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: -5%;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+.slide_img {
+    width: 100%;
+}
+
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transition: 0.6s ease;
+    width:47.27px;
+    height: auto;
+    transform: translateY(-50%);
+}
+
+.next {
+    right: 0;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+.dot {
+    position: relative;
+    width: 100vw;
+    height: 74.691px;
+}
+
+.dots_wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 101.640px;
+    height: 13.356px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.a_dot {
+    width:12.356px;
+    height: 12.356px;
+    border: 1.5px solid #bbb;
+    border-radius: 50%;
+}
+
+.active, .a_dot:hover {
+    background-color: #bbb;
+}
+
+
+
+
+
+/* background_circle_2 */
+.background_circle_2 {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.background_circle_2_img_small {
+    display:none;
+}
+
+
+.feature_title {
+    position: absolute;
+    width: 188.703px;
+    height: 38.982px;
+    line-height:38.982px;
+    font-size: 44px;
+    font-family: Avenir;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    color:white;
+    top:42.0548px;
+    left:calc(50vw - 180.221px);
+}
+.feature_title2 {
+    position: absolute;
+    width: 188.703px;
+    height: 38.982px;
+    line-height:38.982px;
+    font-size: 44px;
+    font-family: Avenir;
+    font-weight: 300;
+    letter-spacing: 0.10rem;
+    color:white;
+    top:42.0548px;
+    left: 50vw;
+}
+
+.product_features {
+    position: absolute;
+    width: 36.65%;
+    top: 6.0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product_feature_small {
+    display: none;
+}
+
+.left_arrow_2 {
+    position: absolute;
+    width: 3.27%;
+    left:23.4%;
+    top:38.15%;
+}
+.right_arrow_2 {
+    position: absolute;
+    width: 3.27%;
+    left:73.2%;
+    top:38.15%;
+}
+
+.slide_img_white_1 {
+    display: none;
+    position: absolute;
+    width:15.941%;
+    height:68.6%;
+    top: 18.4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slide_img_black_1 {
+    display: none;
+    position: absolute;
+    width:15.941vw;
+    height:68.6%;
+    top:18.4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.white_text {
+    position: absolute;
+    display: block;
+    width:8.81%;
+    top:91.9%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.black_text {
+    display: none;
+    position: absolute;
+    width:8.81%;
+    top:91.9%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.color_selector_text {
+    position: absolute;
+    left: 75.2%;
+    top: 56.5%;
+    width: 8.30%;
+}
+
+.color_selector_white {
+    position: absolute;
+    left: 75.9%;
+    top: 63.8%;
+    width: 5.84%;
+}
+.color_selector_black {
+    position: absolute;
+    left: 75.9%;
+    top: 75.6%;
+    width: 5.84%;
+}
+
+
+
+
+
+/* product spec*/
+.product_spec {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.background_circle_mod2 {
+    width:100%;
+    height: auto;
+    z-index: 1;
+}
+
+.slide_3  {
+    display: none;
+    position: absolute;
+    top: 8.6%;
+    width: 72.17%;
+    height: 25.1%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+
+.product_spec_small { display: none;}
+
+.left_arrow_3 {
+    position: absolute;
+    width: 33.723px;
+    left: 4.394vw;
+    top: 19.9%;
+    z-index: 3;
+}
+
+.right_arrow_3 {
+    position: absolute;
+    width: 33.723px;
+    right: 4.394vw;
+    top: 19.9%;
+    z-index: 3;
+}
+
+
+.design1_mod {
+    position: absolute;
+    width:100%;
+    height: 100%;
+}
+.design1_img {
+    position: absolute;
+    width: 290%;
+    top: -30%;
+    left: -50%;
+}
+
+.design1_img_container {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.design2 {
+    position: absolute;
+    width:100%;
+    height: 100%;
+}
+.design2_img {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+}
+
+.design3 {
+    position: absolute;
+    width:100%;
+    height: 100%;
+}
+
+.design3_container {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.design3_img {
+    position: absolute;
+    width: 160%;
+    left: -50%;
+}
+
+.design4 {
+    position: absolute;
+    width:100%;
+    height: 100%;
+}
+
+.design4_container {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.design4_img {
+    position: absolute;
+    width: 51.613vw;
+    height: 36.917vw;
+    left: -10%;
+    top: -10%;
+    z-index: 1;
+}
+
+.design5 {
+    position: absolute;
+    width:100%;
+    height: 100%;
+}
+
+.design5_img_container {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.design5_img {
+    position: absolute;
+    width: 63.66vw;
+    height: 62.43vw;
+    left: -25vw;
+    top: -30vw;
+}
+
+
+.dots_wrapper2{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 189.330px;
+    height: 13.356px;
+    top: 36.7%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.a_dot2 {
+    width:12.356px;
+    height: 12.356px;
+    border: 1.5px solid #bbb;
+    border-radius: 50%;
+}
+
+.a_dot2:hover {
+    background-color: #bbb;
+}
+
+
+
+
+
+
+
+/* product_spec2 */
+
+.product_spec2 {
+    display: none;
+    position: relative;
+    width: 100vw;
+    height: 71.236vw;
+}
+
+.product_spec_img {
+    position: absolute;
+    width: 100vw;
+    height:  100%;
+
+}
+
+.product_spec_detail_small {
+    display: none;
+}
+
+.product_spec_img_background_small {
+    display: none;
+}
+.product_spec_detail {
+    position: absolute;
+    width: 52.733%;
+    top: 49.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.button1_wrapper {
+    position: absolute;
+    width: 67.2%;
+    height: 7.8%;
+    background-color:#ED1C24;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 86.32%;
+    z-index: 1;
+}
+
+.button1_rect {
+    position: absolute;
+    width:99.1%;
+    height: 45%;
+    top:2.0px;
+    left:0.45%;
+    right: 0.45%;
+    background-color:#FFFFFF;
+    z-index: 2;
+    opacity: 0.15;
+}
+
+.button1_text {
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    padding: 3px;
+    height:36px;
+    font-size: 34px;
+    line-height: 36px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-family:’Lucida Grande’, ‘Hiragino Kaku Gothic ProN’, ‘ヒラギノ角ゴ ProN W3’, Meiryo, メイリオ, sans-serif ;
+}
+
+
+/* Seitaro */
+
+.seitaro {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.seitaro_img {
+    width:100%;
+    margin-top: -10%;
+}
+
+.seitaro_all {
+    position: absolute;
+    top: 9.84%;
+    width: 42.5%;
+    left: 50.271%;
+}
+
+.seitaro_all_small {
+    display: none;
+}
+
+
+
+/* Designer interview */
+.designer_interview {
+    position: relative;
+    margin-top: -2px;
+    width: 100%;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.designer_interview_all_small {
+    display: none;
+}
+
+.designer_interview_all{
+    position: absolute;
+    width: 100%;
+}
+
+#player {
+    position: absolute;
+    height: 64.25%;
+    width: 69.86%;
+    top: 18.4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+/* water_explanation */
+
+.water_explanation {
+    margin-top: -2px;
+    position:relative;
+    width: 100%;
+    background-color: #C7EAFB;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.water_explanation_img {
+    width: 100%;
+}
+
+.water_explanation_small {
+    display: none;
+}
+
+
+
+
+
+
+/* kanaradu */
+.kanaradu {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.kanaradu_small {
+    display: none;
+}
+
+
+.kanaradu_background {
+    width: 100%;
+    z-index: 0;
+}
+
+
+.kanaradu_title_small {
+    display: none;
+}
+
+.anshin_wrappper {
+    width: 93.4%;
+    top: 5.44%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.anshin {
+    position: absolute;
+    width: 25.2%;
+    left: 65.0%;
+    top: 18%;
+}
+
+.kamonara_1 {
+    position: absolute;
+    width: 93.4%;
+    top: 5.44%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.kamonara_2 {
+    position: absolute;
+    width: 93.4%;
+    top: 44%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.kamonara_3 {
+    position: absolute;
+    width: 101.8%;
+    top: 60.0%;
+    left: 2.3%;
+    z-index: 1;
+}
+
+.kanaradu_img4 {
+    position: absolute;
+    width:93.4%;
+    top:85.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+
+
+
+.kanaradu_img1 {
+    position: absolute;
+    width: 100%;
+}
+
+.kanaradu_img1_small {
+    display: none;
+}
+
+.kanaradu_img1_1 {
+    position: absolute;
+    left:62.5vw;
+    width: 25.26vw;
+    top:27.0vw;
+}
+
+.kanaradu_img2 {
+    display: block;
+    position: relative;
+    width:93.4vw;
+    margin-top: 2.884vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kanaradu_img2_small {
+    display: none;
+}
+
+
+
+.kanaradu_4_wrapper {
+    position:relative;
+    width:93.4vw;
+    height:43.795vw;
+    margin-top: 2.884vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #006CB7;
+}
+
+.kanaradu_img_wrapper {
+    position: absolute;
+    width:49vw;
+    top: 0.8975vw;
+    height: 42vw;
+    left: 43.5vw;
+    overflow: hidden;
+}
+
+.yoko {
+    width: 100%;
+    height: auto;
+}
+
+.kanaradu_img3 {
+    position: absolute;
+    top: 2.578vw;
+    left: 1.75vw;
+    position: absolute;
+    width: 40vw;
+}
+.kanaradu_4_wrapper_small {
+    display: none;
+}
+
+.kanaradu_img4_small {
+    display: none;
+}
+
+
+.button2_wrapper {
+    display: none;
+}
+
+
+
+
+
+.telephone { display: none;}
+
+.sns { display: none;}
+
+
+
+
+
+
+
+/*   Footer */
+
+.footer {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.footer_img {
+    width: 100%;
+}
+
+.twitter_button {
+    position: absolute;
+    width: 8.83%;
+    height: 25.6%;
+    left: 59.5%;
+    top: 15%;
+}
+
+.facebook_button {
+    position: absolute;
+    width: 8.83%;
+    height:25.6%;
+    left: 72.3%;
+    top: 15%;
+}
+
+.line_button {
+    position: absolute;
+    width: 8.83%;
+    height:25.6%;
+    left: 85%;
+    top: 15%;
+}
+
+
+.info {
+    position: absolute;
+    width: 15.72%;
+    height:12.8%;
+    left: 79.3%;
+    top: 63.14%;
+}
+
+.about {
+    position: absolute;
+    width: 12.72%;
+    height:3.79%;
+    left: 20%;
+    top: 84.9%;
+}
+
+.tokusho {
+    position: absolute;
+    width: 15.72%;
+    height:3.79%;
+    left: 33%;
+    top: 84.9%;
+}
+
+.privacy {
+    position: absolute;
+    width: 11.72%;
+    height: 3.79%;
+    left: 51%;
+    top: 84.9%;
+}
+.general {
+    position: absolute;
+    width: 5.72%;
+    height: 3.79%;
+    left: 64.5%;
+    top: 84.9%;
+}
+
+.inquiry {
+    position: absolute;
+    width: 8.72%;
+    height: 3.79%;
+    left: 72%;
+    top: 84.9%;
+}
+
+.button2_big_wrapper {
+    position: absolute;
+    width: 67.2%;
+    height:4.5%;
+    top: 90.7%;
+    left:50%;
+    transform: translateX(-50%);
+    background-color:#ED1C24;
+    z-index: 1;
+    margin:5vw auto;
+}
+
+.footer_small {
+    display:none ;
+}
+
+
+
+
+
+
+
+/* Copy right */
+
+.copy-right {
+    position: relative;
+    width: 100vw;
+    height: 3.25vw;
+    min-height: 21px;
+    background-color: #393839;
+}
+
+.copy-right-main {
+    position: absolute;
+    color: white;
+    width:300px;
+    padding: 2px;
+    height: 17px;
+    font-size: 13px;
+    line-height: 17px;
+    vetical-align: center;
+    text-align:center;
+    font-family: ’Lucida Grande’, ‘Hiragino Kaku Gothic ProN’, ‘ヒラギノ角ゴ ProN W3’, Meiryo, メイリオ, sans-serif;
+    letter-spacing: 0.03rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+/* For small screen */
+@media (max-width: 767px) and (min-width: 482px) {
+    .sell1 {
+        width: 27.7%;
+        left: 57.112%;
+        top: 90%;
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .sell2 {
+        width: 27.7%;
+        left: 75.112%;
+        top: 90%;
+        font-size: 8px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 481px) {
+    .sell1 {
+        width: 27.7%;
+        left: 57.112%;
+        top: 90%;
+        text-align: center;
+        font-size: 6px;
+    }
+
+    .sell2 {
+        width: 27.7%;
+        left: 75.112%;
+        top: 90%;
+        text-align: center;
+        font-size: 6px;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    .header {
+        display: flex;
+        width: 100vw;
+        height: 46.335px;
+        background:linear-gradient(90deg,white 0%,white 43.68vw,#393839 43.68vw,#393839 100%);
+    }
+
+    .aq_logo {
+        position: absolute;
+        width: 18.3%;
+        height: auto;
+        left: 10px;
+        top:50%;
+        transform: translateY(-50%);
+        max-width: 86px;
+    }
+
+    .area_white {
+        position: relative;
+        width:150.701px;
+        height: 46.335px;
+    }
+
+    .area_black {
+        position: relative;
+        width:calc(100vw - 150.701px);
+        background-color: #393839;
+        height:46.335px;
+    }
+
+    .header_title1 {
+        position: absolute;
+        right: 3px;
+        width: 63px;
+        height: 21px;
+        font-size: 21px;
+        line-height: 21px;
+        letter-spacing: 0.02rem;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: Avenir;
+    }
+
+    .header_title2 {
+        position: absolute;
+        left: 3px;
+        color:white;
+        width: 63px;
+        height: 21px;
+        font-size: 21px;
+        line-height: 21px;
+        letter-spacing: 0.02rem;
+        font-family: Avenir;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .header_title {
+        display: none;
+    }
+
+    .header_title_small {
+        display: block;
+        position: absolute;
+        width: 35.3vw;
+        left: 22.2vw;
+        top: 50%;
+        transform: translateY(-50%);
+
+    }
+
+
+    .key-visual-video {
+        margin-top:46.335px;
+    }
+
+    .thumb-nail {
+        margin-top: 46.335px;
+    }
+
+
+
+
+    /* Concept small */
+
+    .concept-main {
+        display: none;
+    }
+
+
+    .concept {
+        overflow: hidden;
+        position: relative;
+        width: 100vw;
+        height: 79.4vw;
+        margin-top: 0;
+        background-image: url('img/concept_background_mod.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100vw auto;
+    }
+
+    .concept-small {
+        display: block;
+        position: absolute;
+        width: 48.6vw;
+        height: 54.4vw;
+        left:7.3vw;
+        top: 10.9vw;
+        transform: scale(1.1);
+    }
+
+
+
+    .concept1 {
+        position: absolute;
+        width: 90.3px;
+        height: 22.9px;
+        top: 7.30vw;
+        left: 7.14vw;
+        font-size: 23px;
+        line-height: 23px;
+        font-family: Avenir;
+    }
+
+    .concept2 {
+        vertical-align: top;
+        position: absolute;
+        width: 198px;
+        height: 40.5px;
+        font-size: 8.10px;
+        letter-spacing: 0.015rem;
+        line-height: 2;
+        top: 26.5vw;
+        left: 7.14vw;
+        font-weight: 400;
+    }
+
+    .concept3 {
+        position: absolute;
+        width: 198px;
+        height: 71.6px;
+        font-size: 8.10px;
+        font-size: 8.10px;
+        letter-spacing: 0.015rem;
+        line-height: 2;
+        top: 44.62vw;
+        left: 7.14vw;
+        font-weight: 300;
+    }
+
+    .concept3_paragraph1 {
+        transform: translateX(4.05px);
+    }
+
+    .concept_img_1 {
+        display: block;
+        position: absolute;
+        width:27.7%;
+        height: 87%;
+        left: 57.112%;
+        top:7%;
+    }
+    .concept_img_2 {
+        display: block;
+        position: absolute;
+        width:27.7%;
+        height: 87%;
+        left: 75.112%;
+        top:7%;
+    }
+
+
+
+    /*  Slide small  */
+
+    .slide {
+        margin-top: 0;
+    }
+
+    .dot {
+        position: relative;
+        width: 100vw;
+        height: 14px;
+    }
+
+
+    .dots_wrapper {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        width: 42.98px;
+        height: 5.5px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .a_dot {
+        width:7px;
+        height: 7px;
+        border: 0.5px solid #bbb;
+        border-radius: 60%;
+    }
+
+    .prev, .next {
+        display: none;
+    }
+
+
+
+
+
+    /* Slide2  */
+
+    .left_arrow_3 {
+        position: absolute;
+        width: 11.3px;
+        left: 4.394vw;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .right_arrow_3 {
+        position: absolute;
+        width: 11.3px;
+        right: 4.394vw;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+
+    .dots_wrapper2{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 63.40px;
+        height: 6px;
+        top: 46.57vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .a_dot2 {
+        width:5px;
+        height: 5px;
+        border: 1px solid #bbb;
+        border-radius: 50%;
+    }
+
+
+
+    /*  product_feature */
+
+    .background_circle_2_img {
+       display: none;
+    }
+
+    .background_circle_2_img_small {
+        display: block;
+        width: 100%;
+    }
+
+    .product_spec {
+        display: none;
+    }
+
+    .product_features {
+        display: none;
+    }
+
+    .product_feature_small {
+        display: block;
+        position: absolute;
+        top: 5.85%;
+        width: 51.7%;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .feature_title {
+        position: absolute;
+        width: 90px;
+        height: 19px;
+        line-height:18.5px;
+        font-size: 18.5px;
+        font-weight: 300;
+        font-family: Avenir;
+        letter-spacing: 0.01rem;
+        color:white;
+        top:21.1px;
+        left: 31vw;
+    }
+
+    .feature_title2 {
+        position: absolute;
+        width: 90px;
+        height: 19px;
+        line-height:18.5px;
+        font-size: 18.5px;
+        font-weight: 300;
+        font-family: Avenir;
+        letter-spacing: 0.01rem;
+        color:white;
+        top:21.1px;
+        left: 50vw;
+    }
+
+    .left_arrow_2 {
+        position: absolute;
+        width: 8.31%;
+        left: 16.2%;
+        top: 34.0%;
+    }
+    .right_arrow_2 {
+        position: absolute;
+        width: 8.31%;
+        right: 16.2%;
+        top: 34.0%;
+    }
+
+
+    .slide_img_white_1 {
+        top: 15.2%;
+        width: 26.14%;
+        height: 72.89%;
+    }
+
+    .slide_img_black_1 {
+        top: 15.2%;
+        width: 26.14%;
+        height: 72.89%;
+    }
+
+    .white_text {
+        position: absolute;
+        display: block;
+        width:13.2%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 91.86%;
+    }
+
+    .black_text {
+        display: none;
+        position: absolute;
+        width:13.2%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 91.86%;
+    }
+
+    .color_selector_text {
+        position: absolute;
+        left: 78.0%;
+        top: 52.8%;
+        width: 15.3%;
+    }
+
+    .color_selector_white {
+        position: absolute;
+        left: 79.5%;
+        top: 61.5%;
+        width: 10.7%;
+    }
+    .color_selector_black {
+        position: absolute;
+        left: 79.5%;
+        top: 76.4%;
+        width: 10.7%;
+    }
+
+
+
+
+    /* Product spec*/
+
+    .product_spec_small {
+        display: block;
+        position: relative;
+        width: 100vw;
+    }*
+
+    .slide_3_small {
+        position: relative;
+        width: 89.84vw;
+        height: 39.6vw;
+        margin: auto;
+        margin-top: 5.16vw;
+        overflow:hidden;
+        transform: scale(1.08);
+    }
+
+    .slide_3_small:last-child {
+        margin-bottom: 5.16vw;
+    }
+
+    .design1_img {
+        width: 135vw;
+        height: auto;
+        left: -23vw;
+        top: -12.5vw;
+    }
+
+    .design1_mod {
+    }
+
+    .design1_img_container {
+        height: 100%;
+        top:0;
+    }
+
+    .design3_img_container {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        top: 0;
+        overflow: hidden;
+    }
+
+
+    .design3_img {
+        left:-27vw;
+        top: -3vw;
+        width: 80vw;
+        height: auto;
+        z-index: 1;
+    }
+
+
+    .design4_img {
+        width: 63.5vw;
+        height: auto;
+    }
+    .design4_container {
+        height: 100%;
+        top:0;
+    }
+
+    .design5_img {
+        width: 83vw;
+        height: auto;
+        top: -40vw;
+    }
+
+    .design5_img_container {
+        height: 100%;
+        top:0;
+    }
+
+
+
+
+    /*  Product spec  */
+    .product_spec2 {
+        display: block;
+        width: 100vw;
+        height: 101vw;
+    }
+
+    .product_spec_img {
+        display: none;
+    }
+
+    .product_spec_img_background_small {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .product_spec_detail {
+        display: none;
+    }
+
+    .product_spec_detail_small {
+        position: absolute;
+        display: block;
+        width: 76.1vw;
+        top:10.8vw;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .button1_wrapper {
+        width: 68vw;
+        height: 13.6vw;
+        top: 76vw;
+    }
+
+    .button1_text {
+        padding: 0;
+        width: 225px;
+        height:16px;
+        font-size: 16px;
+        line-height: 16px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFFFFF;
+
+    }
+
+
+
+
+
+    /*  Seitaro */
+
+    .seitaro {
+        height: 66.7vw;
+    }
+
+    .seitaro_img {
+        width: 130vw;
+        height: 90.7vw;
+        top: -12.5vw;
+        margin-left: -11.5vw;
+    }
+
+    .seitaro_title {
+        top: 9.56vw;
+        left: 56vw;
+        width: 90px;
+        height: 23px;
+        font-size: 23px;
+        line-height: 24px;
+        letter-spacing:0.03rem;
+        transform:scaleY(1.05);
+    }
+
+    .seitaro_name {
+        display: none;
+    }
+
+    .seitaro_name_small {
+        position: absolute;
+        display: block;
+        width: 37.3vw;
+        left:56.5vw;
+        top: 23.2vw;
+    }
+
+    .seitaro_history {
+        display: none;
+    }
+
+    .seitaro_all {
+        display: none;
+    }
+
+    .seitaro_all_small {
+        position: absolute;
+        display: block;
+        width: 37.9%;
+        top: 20.3%;
+        left: 55.4%;
+    }
+
+
+
+
+    /* Designer Interview */
+
+    .designer_interview {
+        height: 113vw;
+    }
+
+    .designer_interview_all {
+        display: none;
+    }
+
+    .designer_interview_all_small {
+        display: block;
+        position: absolute;
+        width: 100%;
+    }
+
+    .designer_interview_title {
+        display: none;
+        width:160px;
+        height:19px;
+        line-height:19px;
+        font-size: 19px;
+        left: 6.6vw;
+        top: 45.7vw;
+        transform: scaleY(1.05);
+    }
+
+    #player {
+        width: 90%;
+        height: 44.55%;
+        top: 47.4%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #player iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+
+
+
+
+    /*  water explanation  */
+
+    .water_explanation_small {
+        display: block;
+        width: 100%;
+    }
+
+    .water_explanation_img {
+        display: none;
+    }
+
+
+    /* kanaradu */
+
+    .kanaradu {
+        display: none;
+        position: relative;
+        width: 100vw;
+        height: 663vw;
+        margin-top: -14vw;
+    }
+
+    .kanaradu_small {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+
+    .kanaradu_small_all {
+        width: 100%;
+    }
+
+    .kamonara_link_small {
+        position: absolute;
+        width: 89.64%;
+        height: 13.63%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 63.5%;
+
+    }
+
+    .kanaradu_title {
+        display: none;
+    }
+    .kanaradu_title_small {
+        position: absolute;
+        width: 87.6vw;
+        top: 5.37vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .kanaradu_img1 {
+        display: none;
+    }
+
+    .kanaradu_img1_1 {
+        width:51.7vw;
+        left: 27.2vw;
+        top: 178.4vw;
+        height: 46.77vw;
+    }
+
+    .anshin_wrappper {
+        position: relative;
+        width: 89.6vw;
+        height:271vw;
+        margin-top:14vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .kanaradu_img1_small {
+        display: block;
+        position: absolute;
+        width: 89.6vw;
+        top: 14vw;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    .kanaradu_img2 {
+        display: none;
+    }
+
+    .kanaradu_img2_small {
+        display: block;
+        position: absolute;
+        top: 290.4vw;
+        width: 89.6vw;
+        left:50%;
+        transform: translateX(-50%);
+    }
+
+    .kanaradu_4_wrapper_small {
+        position: absolute;
+        display: block;
+        width: 100vw;
+        height: 121vw;
+        left: 50%;
+        overflow: hidden;
+        transform: translateX(-50%);
+        top: 394vw;
+    }
+
+    .kanaradu_img3_small {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+
+    .yoko_wrapper {
+        position: absolute;
+        width: 88.5vw;
+        height: 52vw;
+        left: 50%;
+        transform: translateX(-50.7%);
+        overflow: hidden;
+        top: 29vw;
+        z-index: 1;
+    }
+
+    .yoko {
+        position: absolute;
+        width:95.6vw;
+        height: 87.5vw;
+        top: -29vw;
+        left: -1.5vw;
+    }
+
+
+
+    .kanaradu_img4 {
+        display: none;
+    }
+
+    .kanaradu_img4_small {
+        display: block;
+        position: absolute;
+        width:91vw;
+        top: 517.4vw;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .button2_wrapper {
+        display: block;
+        position: absolute;
+        width: 68vw;
+        height: 13.6vw;
+        top: 543.2vw;
+        background-color: #ED1C24;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .telephone {
+        display: block;
+        position: absolute;
+        width: 89.64%;
+        height: 3.8%;
+        top:86.6%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .info_small {
+        display: block;
+        position: absolute;
+        width: 89.64%;
+        height:3.3%;
+        left: 50%;
+        top: 90.4%;
+        transform: translateX(-50%);
+    }
+
+
+    .sns {
+        position: absolute;
+        display: block;
+        width: 88.1vw;
+        left: 4.58vw;
+        top: 625vw;
+    }
+
+    .footer_small {
+        display: block;
+        position: absolute;
+        width: 87.5vw;
+        top: 648vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .twitter_button_small {
+        display: block;
+        position: absolute;
+        width: 13.5%;
+        height: 2%;
+        top: 94.5%;
+        left:48.03%;
+    }
+
+    .facebook_button_small {
+        display: block;
+        position: absolute;
+        width: 13.5%;
+        height: 2%;
+        top: 94.5%;
+        left:63.5%;
+    }
+
+    .line_button_small {
+        display: block;
+        position: absolute;
+        width: 13.5%;
+        height: 2%;
+        top: 94.5%;
+        left:79.5%;
+    }
+
+    .about_small {
+        display: block;
+        position: absolute;
+        width: 22%;
+        height: 0.36%;
+        top: 97.7%;
+        left:6.2%;
+    }
+
+    .tokusho_small {
+        display: block;
+        position: absolute;
+        width: 30%;
+        height: 0.36%;
+        top: 97.7%;
+        left:34%;
+    }
+
+    .privacy_small {
+        display: block;
+        position: absolute;
+        width: 23.5%;
+        height:0.36%;
+        top: 97.7%;
+        left:68%;
+    }
+
+    .general_small {
+        display: block;
+        position: absolute;
+        width: 14.0%;
+        height:0.36%;
+        top: 98.5%;
+        left:3.5%;
+    }
+
+    .inquiry_small {
+        display: block;
+        position: absolute;
+        width: 15.5%;
+        height:0.36%;
+        top: 98.5%;
+        left:22.0%;
+    }
+
+
+    .button2_big_wrapper {
+        display: none;
+    }
+
+
+    .kanaradu_4_wrapper {
+        display: none;
+    }
+
+    .copy-right-main {
+        width: 250px;
+        text-align: center;
+        padding: 2px;
+        font-size: 8px;
+        height:9px;
+        line-height: 9px;
+        font-family: ’Lucida Grande’, ‘Hiragino Kaku Gothic ProN’, ‘ヒラギノ角ゴ ProN W3’, Meiryo, メイリオ, sans-serif;
+    }
+
+    .footer {
+        display: none;
+    }
+
+
+}
+
+@media(max-width: 320px) {
+    .concept2 {
+        font-size: 7px;
+    }
+
+    .concept3 {
+        font-size: 7px;
+    }
+
+    .concept3_paragraph1 {
+        transform: translateX(3.5px);
+    }
+
+    .feature_title {
+        left: 28vw;
+    }
+
+    .button1_text {
+        font-size: 22px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
