@@ -43,6 +43,22 @@ body {
     display: none;
 }
 
+.apply_button1_wrapper {
+    position: absolute;
+    width: 19.2%;
+    height: 56.23%;
+    background-color:#ED1C24;
+    left: 77.41%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.apply_button1_wrapper_small {
+   display: none;
+}
+
+
 .aq_logo {
    position: absolute;
    width: 10.37%;
@@ -1051,6 +1067,20 @@ body {
         width: 100vw;
         height: 46.335px;
         background:linear-gradient(90deg,white 0%,white 43.68vw,#393839 43.68vw,#393839 100%);
+    }
+
+    .apply_button1_wrapper_small {
+        position: absolute;
+        display: block;
+        width: 32.1%;
+        max-height: 40px;
+        left: 63.6%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .apply_button1_wrapper {
+        display: none;
     }
 
     .aq_logo {
