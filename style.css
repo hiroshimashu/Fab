@@ -48,11 +48,41 @@ body {
     width: 19.2%;
     height: 56.23%;
     background-color:#ED1C24;
-    left: 77.41%;
+    left: 75.41%;
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
+    min-width: 180px;
 }
+
+.apply_button1_rect {
+    position: absolute;
+    width:99.1%;
+    height: 45%;
+    top:2.0px;
+    left:0.45%;
+    right: 0.45%;
+    background-color:#FFFFFF;
+    z-index: 2;
+    opacity: 0.15;
+    min-width: 178px;
+}
+
+.apply_button1_text {
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    padding: 3px;
+    height:25px;
+    font-size: 25px;
+    line-height: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-family:’Lucida Grande’, ‘Hiragino Kaku Gothic ProN’, ‘ヒラギノ角ゴ ProN W3’, Meiryo, メイリオ, sans-serif ;
+}
+
 
 .apply_button1_wrapper_small {
    display: none;
@@ -162,8 +192,8 @@ body {
 .sell1 {
     position: absolute;
     top: 80%;
-    width:18.2%;
-    left: 64.08%;
+    width:28%;
+    left: 65.58%;
     font-size: 10px;
     font-weight: 400;
     text-align: center;
@@ -632,6 +662,15 @@ body {
     font-family:’Lucida Grande’, ‘Hiragino Kaku Gothic ProN’, ‘ヒラギノ角ゴ ProN W3’, Meiryo, メイリオ, sans-serif ;
 }
 
+.reserve {
+    position: absolute;
+    text-align:center;
+    top: 96%;
+    font-size: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 /* Seitaro */
 
@@ -868,6 +907,14 @@ body {
     display: none;
 }
 
+.reserve2 {
+    position: absolute;
+    text-align:center;
+    top: 98%;
+    font-size: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 
 
@@ -1019,11 +1066,12 @@ body {
 
 
 
+
 /* For small screen */
 @media (max-width: 767px) and (min-width: 482px) {
     .sell1 {
-        width: 27.7%;
-        left: 57.112%;
+        width: 29%;
+        left: 66%;
         top: 90%;
         font-size: 8px;
         text-align: center;
@@ -1036,11 +1084,16 @@ body {
         font-size: 8px;
         text-align: center;
     }
+
+    .apply_button1_text {
+        font-size: 16px;
+    }
+
 }
 
 @media (max-width: 481px) {
     .sell1 {
-        width: 27.7%;
+        width: 29%;
         left: 57.112%;
         top: 90%;
         text-align: center;
@@ -1069,19 +1122,6 @@ body {
         background:linear-gradient(90deg,white 0%,white 43.68vw,#393839 43.68vw,#393839 100%);
     }
 
-    .apply_button1_wrapper_small {
-        position: absolute;
-        display: block;
-        width: 32.1%;
-        max-height: 40px;
-        left: 63.6%;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    .apply_button1_wrapper {
-        display: none;
-    }
 
     .aq_logo {
         position: absolute;
@@ -1144,7 +1184,6 @@ body {
         left: 22.2vw;
         top: 50%;
         transform: translateY(-50%);
-
     }
 
 
@@ -1155,6 +1194,47 @@ body {
     .thumb-nail {
         margin-top: 46.335px;
     }
+
+    .apply_button1_wrapper {
+        position: absolute;
+        width: 32.14%;
+        height: 48.1%;
+        background-color:#ED1C24;
+        left: 63.7%;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        min-width: 90px;
+    }
+
+    .apply_button1_rect {
+        position: absolute;
+        width:99.1%;
+        height: 45%;
+        top:2.0px;
+        left:0.45%;
+        right: 0.45%;
+        background-color:#FFFFFF;
+        z-index: 2;
+        opacity: 0.15;
+        min-width: 90px;
+    }
+
+    .apply_button1_text {
+        position: absolute;
+        text-align: center;
+        width: 200px;
+        padding: 3px;
+        height:18px;
+        font-size: 18px;
+        line-height: 18px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFFFFF;
+        font-family:’Lucida Grande’, ‘Hiragino Kaku Gothic ProN’, ‘ヒラギノ角ゴ ProN W3’, Meiryo, メイリオ, sans-serif ;
+    }
+
 
 
 
@@ -1248,6 +1328,9 @@ body {
         top:7%;
     }
 
+    .sell1 {
+        left: 66%;
+    }
 
 
     /*  Slide small  */
@@ -1579,6 +1662,17 @@ body {
 
     }
 
+    .reserve_small {
+        position: absolute;
+        text-align:center;
+        top: 93%;
+        font-size: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+
 
 
 
@@ -1845,6 +1939,15 @@ body {
         transform: translateX(-50%);
     }
 
+    .reserve2_small {
+        position: absolute;
+        text-align:center;
+        top: 84.7%;
+        font-size: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     .telephone {
         display: block;
         position: absolute;
@@ -1906,7 +2009,7 @@ body {
         position: absolute;
         width: 13.5%;
         height: 2%;
-        top: 94.5%;
+        top: 94.6%;
         left:79.5%;
     }
 
@@ -1980,6 +2083,12 @@ body {
     }
 
 
+}
+
+@media (max-width: 481px) {
+    .apply_button1_text {
+        font-size: 16px;
+    }
 }
 
 @media(max-width: 320px) {
