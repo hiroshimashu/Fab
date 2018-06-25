@@ -52,7 +52,6 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
-    min-width: 180px;
 }
 
 .apply_button1_rect {
@@ -65,7 +64,6 @@ body {
     background-color:#FFFFFF;
     z-index: 2;
     opacity: 0.15;
-    min-width: 178px;
 }
 
 .apply_button1_text {
@@ -966,6 +964,21 @@ body {
     top: 15%;
 }
 
+.footer-link {
+    position: absolute;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 880px;
+    height: 18px;
+    left: 50%;
+    top: 84.9%;
+    transform: translateX(-50%);
+}
+
 
 .info {
     position: absolute;
@@ -977,41 +990,106 @@ body {
 
 .about {
     position: absolute;
-    width: 12.72%;
-    height:3.79%;
-    left: 20%;
-    top: 84.9%;
+    left: 130px;
+    font-size: 13px;
+    list-style: none;
+}
+
+#about {
+    text-decoration: none;
+    color: black;
+}
+
+.slash1 {
+    position: absolute;
+    left: 255px;
+    font-size: 13px;
+    list-style: none;
 }
 
 .tokusho {
     position: absolute;
-    width: 15.72%;
-    height:3.79%;
-    left: 33%;
-    top: 84.9%;
+    left: 270px;
+    font-size: 13px;
+    list-style: none;
 }
+#tokusho {
+    text-decoration: none;
+    color: black;
+}
+
+.slash2 {
+    position: absolute;
+    left: 420px;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
 
 .privacy {
     position: absolute;
-    width: 11.72%;
-    height: 3.79%;
-    left: 51%;
-    top: 84.9%;
+    left: 435px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    list-style: none;
 }
+#privacy {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.slash3 {
+    position: absolute;
+    left: 545px;
+    font-size: 13px; 
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
 .general {
     position: absolute;
-    width: 5.72%;
-    height: 3.79%;
-    left: 64.5%;
-    top: 84.9%;
+    left: 560px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    list-style: none;
 }
+
+#general {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.slash4 {
+    position: absolute;
+    left: 620px;
+    font-size: 13px;
+    color: black;
+    list-style: none;
+}
+
 
 .inquiry {
     position: absolute;
-    width: 8.72%;
-    height: 3.79%;
-    left: 72%;
-    top: 84.9%;
+    left: 635px;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    list-style: none;
+}
+
+#inquiry {
+    text-decoration: none;
+    color: black;
+    list-style: none;
 }
 
 .button2_big_wrapper {
@@ -1196,15 +1274,7 @@ body {
     }
 
     .apply_button1_wrapper {
-        position: absolute;
-        width: 32.14%;
-        height: 48.1%;
-        background-color:#ED1C24;
-        left: 63.7%;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 1;
-        min-width: 90px;
+       display: none;
     }
 
     .apply_button1_rect {
@@ -1233,6 +1303,17 @@ body {
         transform: translate(-50%, -50%);
         color: #FFFFFF;
         font-family:’Lucida Grande’, ‘Hiragino Kaku Gothic ProN’, ‘ヒラギノ角ゴ ProN W3’, Meiryo, メイリオ, sans-serif ;
+    }
+
+    .apply_button1_wrapper_small {
+        display: block;
+        position: absolute;
+        width: 32.14%;
+        height: 48.1%;
+        left: 63.7%;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
     }
 
 
@@ -2013,49 +2094,107 @@ body {
         left:79.5%;
     }
 
+    .footer-link-small {
+        position: absolute;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: space-between;
+        height: 16px;
+        top: 97.7%;
+        width: 90%;
+        left: 5%;
+    }
+
+    .footer-link-small2 {
+        position: absolute;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: space-between;
+        height: 16px;
+        top: 98.5%;
+        width: 36%;
+        left: 5%;
+    }
+
     .about_small {
         display: block;
-        position: absolute;
-        width: 22%;
-        height: 0.36%;
-        top: 97.7%;
-        left:6.2%;
+        list-style: none;
+    }
+
+    #about_small {
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
+    }
+
+    .slash1-small {
+        list-style: none;
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
     }
 
     .tokusho_small {
         display: block;
-        position: absolute;
-        width: 30%;
-        height: 0.36%;
-        top: 97.7%;
-        left:34%;
+        list-style: none;
+    }
+
+    #tokusho_small {
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
+    }
+
+    .slash2-small {
+        list-style: none;
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
     }
 
     .privacy_small {
         display: block;
-        position: absolute;
-        width: 23.5%;
-        height:0.36%;
-        top: 97.7%;
-        left:68%;
+        list-style: none;
+    }
+
+    #privacy_small {
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
+    }
+
+    .slash3-small {
+        list-style: none;
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
     }
 
     .general_small {
         display: block;
-        position: absolute;
-        width: 14.0%;
-        height:0.36%;
-        top: 98.5%;
-        left:3.5%;
+        list-style: none;
     }
 
+    #general_small {
+        text-decoration: none;
+        font-size: 10px;
+        color: black;   
+    }
     .inquiry_small {
         display: block;
-        position: absolute;
-        width: 15.5%;
-        height:0.36%;
-        top: 98.5%;
-        left:22.0%;
+        list-style: none;
+    }
+    #inquiry_small {
+        text-decoration: none;
+        font-size: 10px;
+        color: black;      
+    }
+
+    .slash4-small {
+        list-style: none;
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
     }
 
 
@@ -2109,10 +2248,16 @@ body {
     }
 
     .button1_text {
-        font-size: 22px;
+        font-size: 13px;
         text-align: center;
     }
-
+    .footer-link-small {
+       width: 93%;
+       left: 3.5%;   
+    }
+    .footer-link-small2 {
+       left: 3.5%; 
+    }
 }
 
 
