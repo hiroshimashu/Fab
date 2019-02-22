@@ -26,7 +26,6 @@ $(function() {
     if ( parms != "") {
         var parms_tmp = parms[1].split('&');
         get_parms = get_slice(parms_tmp);
-        
         //申込みコードセット
         if ( get_parms['apadcode'] != null ) {
             if ( get_parms['apadcode'].search(/^\d{6}$/) == 0 ) {
